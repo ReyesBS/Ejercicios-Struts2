@@ -6,7 +6,7 @@ import org.demo.actions.beans.InvoiceBean;
 
 import java.util.Date;
 
-public class InvoiceAction extends ActionSupport  implements Preparable {
+public class InvoiceAction extends ActionSupport {
 
     private InvoiceBean invoiceBean;
 

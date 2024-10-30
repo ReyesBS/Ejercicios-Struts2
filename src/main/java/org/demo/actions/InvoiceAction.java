@@ -41,13 +41,7 @@ public class InvoiceAction extends ActionSupport  implements Preparable {
             //El valor lo manda correctamente sin IVA
         }
     }
-    @Override
-    public void prepare(){
 
-        invoiceBean.setAmount(invoiceBean.getAmount() * 0.21);
-        System.out.println("Amount de prepare: " + invoiceBean.getAmount());
-        //El valor lo manda a 0
-    }
 
     @Override
     public String execute() throws Exception {

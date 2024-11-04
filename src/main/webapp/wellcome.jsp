@@ -11,11 +11,11 @@
 
 <body>
 
-  <h1><s:text name="wellcom.tittle.message"/></h1>
+  <h1><s:text name="wellcome.tittle.message"/></h1>
   <table>
   <tr>
       <td class="evenRow">
-                <s:text name="form.subject.message"/>
+        <s:text name="form.subject.message"/>
         <s:property value="invoiceBean.subject"/>
       </td>
     </tr>

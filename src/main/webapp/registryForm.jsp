@@ -18,7 +18,7 @@
   <table>
   <tr>
       <td class="evenRow">
-
+        <s:fielderror fieldName = "invoiceBean.subject" />
         <s:text name="form.subject.message"/>
         <s:textfield id="subject" name="invoiceBean.subject"/>
       </td>
